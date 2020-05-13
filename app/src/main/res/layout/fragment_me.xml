@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:layout_width="220dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="148dp"
+        android:layout_marginEnd="42dp"
+        android:layout_marginBottom="283dp"
+        android:text="Faksi Kilat Buana Arifin P"
+        android:textSize="18sp" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="142dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="147dp"
+        android:layout_marginEnd="122dp"
+        android:layout_marginBottom="333dp"
+        android:text="10117112"
+        android:textSize="18sp" />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="302dp"
+        android:layout_height="347dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="54dp"
+        android:layout_marginTop="17dp"
+        android:layout_marginEnd="55dp"
+        android:layout_marginBottom="367dp"
+        android:foregroundGravity="center"
+        app:srcCompat="@drawable/profile" />
+
+    <TextView
+        android:layout_width="110dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="13dp"
+        android:layout_marginEnd="288dp"
+        android:layout_marginBottom="333dp"
+        android:text="NIM :"
+        android:textSize="18sp" />
+
+    <TextView
+        android:layout_width="230dp"
+        android:layout_height="126dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="149dp"
+        android:layout_marginEnd="32dp"
+        android:layout_marginBottom="50dp"
+        android:text="Seorang Mahasiswa Di Unversitas Komputer Indonesia Jurusan Teknik Informatika Angkatan 2017"
+        android:textSize="18sp" />
+
+    <TextView
+        android:id="@+id/kelas"
+        android:layout_width="115dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="8dp"
+        android:layout_marginEnd="288dp"
+        android:layout_marginBottom="230dp"
+        android:text="KELAS :"
+        android:textSize="18sp" />
+
+    <TextView
+        android:id="@+id/des"
+        android:layout_width="132dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="8dp"
+        android:layout_marginEnd="270dp"
+        android:layout_marginBottom="150dp"
+        android:text="DESKRIPSI DIRI :"
+        android:textSize="18sp" />
+
+    <TextView
+        android:id="@+id/if7"
+        android:layout_width="191dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="148dp"
+        android:layout_marginEnd="72dp"
+        android:layout_marginBottom="232dp"
+        android:text="IF-3"
+        android:textSize="18sp" />
+
+    <TextView
+        android:id="@+id/nama"
+        android:layout_width="112dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="11dp"
+        android:layout_marginEnd="288dp"
+        android:layout_marginBottom="281dp"
+        android:text="NAMA :"
+        android:textSize="18sp" />
+
+
+</RelativeLayout>

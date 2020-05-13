@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ImageView
+        android:id="@+id/telp"
+        android:layout_width="wrap_content"
+        android:layout_height="127dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="4dp"
+        android:layout_marginEnd="242dp"
+        android:layout_marginBottom="351dp"
+        android:onClick="telepon"
+        app:srcCompat="@drawable/phone" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="213dp"
+        android:layout_height="43dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="177dp"
+        android:layout_marginEnd="21dp"
+        android:layout_marginBottom="392dp"
+        android:text="082295812424"
+        android:textSize="20sp" />
+
+    <ImageView
+        android:id="@+id/mail"
+        android:layout_width="162dp"
+        android:layout_height="142dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="4dp"
+        android:layout_marginEnd="245dp"
+        android:layout_marginBottom="198dp"
+        android:onClick="email"
+        app:srcCompat="@drawable/email" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="253dp"
+        android:layout_height="34dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="177dp"
+        android:layout_marginEnd="-19dp"
+        android:layout_marginBottom="263dp"
+        android:text="faksi121315@gmail.com"
+        android:textSize="18sp" />
+
+    <ImageView
+        android:id="@+id/imageView5"
+        android:layout_width="161dp"
+        android:layout_height="131dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="6dp"
+        android:layout_marginEnd="244dp"
+        android:layout_marginBottom="45dp"
+        android:onClick="instagram"
+        app:srcCompat="@drawable/instagram" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="159dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="187dp"
+        android:layout_marginEnd="64dp"
+        android:layout_marginBottom="92dp"
+        android:text="FaksiShonen"
+        android:textSize="18sp" />
+
+    <TextView
+        android:id="@+id/textView5"
+        android:layout_width="wrap_content"
+        android:layout_height="56dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="84dp"
+        android:layout_marginEnd="77dp"
+        android:layout_marginBottom="521dp"
+        android:gravity="center"
+        android:text="My Contact Person"
+        android:textSize="24sp"
+        android:textStyle="bold" />
+
+
+</RelativeLayout>

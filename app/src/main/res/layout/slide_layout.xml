@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <ImageView
+        android:id="@+id/slide_image"
+        android:layout_width="239dp"
+        android:layout_height="276dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:gravity="center"
+        android:layout_marginStart="85dp"
+        android:layout_marginTop="58dp"
+        android:layout_marginEnd="87dp"
+        android:layout_marginBottom="396dp"
+        app:srcCompat="@drawable/eat_icon" />
+
+    <TextView
+        android:id="@+id/slide_heading"
+        android:layout_width="202dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="105dp"
+        android:layout_marginEnd="103dp"
+        android:layout_marginBottom="348dp"
+        android:gravity="center"
+        android:text="HEADING"
+        android:textColor="#B6A9A9"
+        android:textSize="24sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/slide_desc"
+        android:layout_width="wrap_content"
+        android:layout_height="176dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="94dp"
+        android:layout_marginEnd="93dp"
+        android:layout_marginBottom="157dp"
+        android:gravity="center"
+        android:text="TextView"
+        android:textColor="#97B7E9"
+        android:textSize="20sp" />
+
+</RelativeLayout>
